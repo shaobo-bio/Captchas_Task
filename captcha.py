@@ -59,12 +59,12 @@ class Captcha():
 
 
 if __name__  == "__main__":
-    input_folder = "/Users/shaobo/Desktop/captchas/sampleCaptchas/input"
-    output_folder = "/Users/shaobo/Desktop/captchas/sampleCaptchas/output"
+    input_folder = "data/input"
+    output_folder = "data/output"
     Captcha_my = Captcha(input_folder, output_folder)
 
-    input_file = "//Users/shaobo/Desktop/captchas/sampleCaptchas/input/input23.jpg"
-    output_file = "/Users/shaobo/Desktop/captchas/sampleCaptchas/output100.txt"
+    input_file = "data/input100.jpg"
+    output_file = "data/output100.txt"
     Captcha_my(input_file,output_file)
 
 
