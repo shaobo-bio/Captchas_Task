@@ -17,6 +17,7 @@ First, captchas images were converted to binary images based on their intensity.
 
 Here provides an example code that runs the scripts:
 
+##################################################################################
 from captcha import Captcha
 
 input_folder = "data/input" #change this to the folder of input in your computer
@@ -27,3 +28,4 @@ Captcha_my = Captcha(input_folder,output_folder)
 input_file = "data/input100.jpg" #change this to path of the test image
 output_file = "data/output100.txt"  #change this to path of the saving file
 Captcha_my(input_file,output_file)
+##################################################################################
