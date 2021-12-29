@@ -15,7 +15,7 @@ This method uses binary image conversion and a hard-coded dictionary to perform 
 
 First, captchas images were converted to binary images based on their intensity. Second, each image region corresponding to the character is cropped and stored in a dictionary. For unseen captchas image, it will also be processed similarly: converting to a binary image, cropped out each character region. Then each cropped out region will be referenced to the dictionary to identify their corresponding character. 
 
-Here provides an example code that utilizes the scripts:
+Here provides an example code that runs the scripts:
 
 from captcha import Captcha
 
